@@ -1,0 +1,11 @@
+.section-paddingt30 {
+    padding-top: 65px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    margin-left: 40rem;
+    max-width: 60%;
+    padding-top: -10rem;
+    font-size: 1.3rem;
+    margin-left: 20rem;
+}

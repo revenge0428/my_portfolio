@@ -1,0 +1,20 @@
+.contacts {
+    border: 1px solid #ccc; /* Add a border around the box */
+    padding: 20px; /* Add some padding inside the box */
+    width: 200px; /* Set a specific width for the box */
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  h4 {
+    font-size: 18px; /* Adjust the heading font size */
+  }
+
+  h5 {
+    font-size: 16px; /* Adjust the subheading font size */
+  }
+
+  p {
+    margin: 0; /* Remove default margin for the paragraph */
+  }

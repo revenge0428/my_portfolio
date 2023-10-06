@@ -1,0 +1,29 @@
+.nav-items{
+  position: fixed;
+}
+
+.nav-items li a{
+  text-decoration: none;
+	width: 240px;
+	text-align: right;
+  clear: both; 
+  display: block;  
+  position: relative;  
+  margin-bottom: 10px; 
+  letter-spacing: 3px;
+  padding: 40px 0px 0px 0;
+  transition: color 0.3s;
+}
+
+.nav-items li a:hover {
+  color: #967bb6; /* Text color on hover */
+  transform: scale(1.1);
+}
+
+ul{
+  list-style-type: none;
+}
+
+html{
+  overflow-y: scroll;
+}

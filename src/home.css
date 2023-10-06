@@ -1,0 +1,59 @@
+.home{
+    align-items: center;
+    display: flex;
+    margin-left: 40rem;
+    max-width: 60%;
+    padding-top: -10rem;
+    font-size: 1.3rem;
+    margin-left: 20rem;
+}
+
+img{
+    border-radius: 30%;
+    width: 50rem; 
+    margin-right: 20px;
+    max-width: 20%;
+    padding: 30px;
+}
+
+.img_frame {
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.img_frame:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+p{
+    color: rgb(79, 21, 133);
+    align: justify;
+}
+
+.btn{
+    background: #632f53;
+    margin-top: 30%;
+    display: flex;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 20px 40px;
+    transition: color 0.4s linear;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn {
+    /* Normal styles when not hovering */
+    background-color: rgb(79, 21, 133);
+    color: #ac8ea3;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+
+    /* Hover styles */
+}
+
+.btn:hover {
+    background-color: #2d0238; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
